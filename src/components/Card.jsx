@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
     const Card = (props) => {
         const { id, title, image, description, instructions, ingredients } =
             props.recipe;
+
+            console.log("ImageUrl:", image);
     
         return (
             <Link

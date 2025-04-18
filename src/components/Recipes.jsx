@@ -8,7 +8,7 @@ const Recipe = () => {
     console.log(recipes);
     return ( 
         <div className="recipe-container">
-            <h1 className="text-2xl font-semibold text-center">OUR RECIPES</h1>
+            {/* <h1 className="text-2xl font-semibold text-center">OUR RECIPES</h1> */}
             <div className="recipe-cards mt-[5%]  flex flex-wrap p-5">
                 {recipes.length > 0 ? (
                     recipes.map((r) => <Card key={r.id} recipe={r} />)

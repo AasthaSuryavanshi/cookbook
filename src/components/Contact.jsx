@@ -3,7 +3,7 @@ const Contact = () => {
     return (
         <>
             <div className='flex w-full h-[85vh]  px-12'>
-                <div className="w-[50%] m-auto mt-[10%] p-10 bg-[#f3ecea] rounded-lg">
+                <div className="w-[70%] m-auto mt-[10%] p-10 bg-[#f3ecea] rounded-lg">
                     <h1 className="text-7xl mt-5 font-extrabold text-[#d8734e] mb-[5%]">
                         DO YOU WANT TO REACH US ?
                     </h1>

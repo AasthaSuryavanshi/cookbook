@@ -14,9 +14,10 @@ const Slider = () => {
             <div className="w-[70vw] h-full flex">
                 <div className="h-full w-[40vw] flex items-center justify-center">
                     <div className="flex flex-col gap-5 text-left">
-                        <h5 className="font-medium leading-3 tracking-tight text-black">Lorem, ipsum dolor sit amet consectetur adipisicing.</h5>
-                        <h1 className="font-bold text-[3vw]">Heading...</h1>
-                        <h3 className="flex items-center px-6 py-3 capitalize rounded bg-[#F8AB32] w-fit text-nowrap">Veiw more <FaArrowRightLong className="ml-4 shrink-0" /></h3>
+                        <h5 className="font-medium leading-3 tracking-tight text-black">Your Personal Kitchen, Full of Delicious Recipes!</h5>
+                        {/* <img className=" w-[90 px] h-[90px] " src="../src/utils/bonna.png" alt="" /> */}
+                        <h1 className="font-bold text-[2vw] ">Unleash Your Inner <br /> Chef with CookBook</h1>
+                        <h3 className="flex items-center px-6 py-3 capitalize rounded bg-[#F8AB32] w-fit text-nowrap">View more! <FaArrowRightLong className="ml-4 shrink-0" /></h3>
                     </div>
                 </div>
                 <div className="h-[70vh] w-[60vw] flex items-center justify-center relative overflow-hidden">

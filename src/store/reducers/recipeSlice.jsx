@@ -11,5 +11,5 @@ export const recipeSlice = createSlice({
         },
     },
 });
-export default recipeSlice.reducer;
 export const { load } = recipeSlice.actions;
+export default recipeSlice.reducer;
