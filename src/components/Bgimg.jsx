@@ -1,4 +1,4 @@
-import bgimage from "../src/utils/bg-img-homeb.jpg";
+import bgimage from "../utils/bg-img-homeb.jpg";
 const Bgimg = () => {
     return (
         <div className="w-full h-[70vh] mt-20 border border-zinc-100 relative">

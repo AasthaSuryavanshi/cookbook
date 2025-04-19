@@ -2,7 +2,7 @@ import { LiaArrowCircleLeftSolid } from "react-icons/lia";
 import { LiaArrowCircleRightSolid } from "react-icons/lia";
 import { FaArrowRightLong } from "react-icons/fa6";
 import {motion} from "framer-motion";
-import food from "../src/utils/food.png";
+import food from "../utils/food.png";
 
 const Slider = () => {
     return (

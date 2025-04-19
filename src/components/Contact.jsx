@@ -1,4 +1,4 @@
-import layer1 from "../public/images/Layer 1.png";
+// import layer1 from "../public/images/Layer 1.png";
 const Contact = () => {
     return (
         <>

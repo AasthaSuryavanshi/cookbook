@@ -1,5 +1,5 @@
-import blueberry from "../src/utils/bluebarry.jpg";
-import veggie from "../src/utils/vaegies.jpg";
+import blueberry from "../utils/bluebarry.jpg";
+import veggie from "../utils/vaegies.jpg";
 const Slider2 = () => {
     return (
         <div className="grid w-full grid-cols-2 gap-5 mb-10 px-44">

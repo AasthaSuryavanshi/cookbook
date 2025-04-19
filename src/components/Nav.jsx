@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom"
 import { MdRestaurantMenu } from "react-icons/md";
-import logo from "./src/utils/logo.jpg"
+import logo from "../utils/logo.jpg"
 
 
 const Nav = () => {
