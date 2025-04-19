@@ -1,4 +1,4 @@
-
+import layer1 from "../public/images/Layer 1.png";
 const Contact = () => {
     return (
         <>
@@ -12,7 +12,7 @@ const Contact = () => {
                     </button>
                 </div>
                 <div className=''>
-                    <img className=' h-[80vh] object-contain mr-16 drop-shadow-[5vh] shadow-black' src="../public/images/Layer 1.png" alt="" />
+                    <img className=' h-[80vh] object-contain mr-16 drop-shadow-[5vh] shadow-black' src={layer1} alt="" />
                 </div>
             </div>
         </>

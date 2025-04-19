@@ -2,7 +2,7 @@ import { LiaArrowCircleLeftSolid } from "react-icons/lia";
 import { LiaArrowCircleRightSolid } from "react-icons/lia";
 import { FaArrowRightLong } from "react-icons/fa6";
 import {motion} from "framer-motion";
-
+import food from "../src/utils/food.png";
 
 const Slider = () => {
     return (
@@ -21,7 +21,7 @@ const Slider = () => {
                     </div>
                 </div>
                 <div className="h-[70vh] w-[60vw] flex items-center justify-center relative overflow-hidden">
-                    <img src="../src/utils/food.png" alt="" className="object-cover scale-[1.1]" />
+                    <img src={food} alt="" className="object-cover scale-[1.1]" />
                     <motion.img initial={{X:0,y:0}} animate={{x:"-10%",y:"10%"}} transition={{ease: "smooth",repeat: Infinity,duration:2}} src="../src/utils/chopstik.png" alt="" className="absolute top-[8%] h-[30vh] right-10 object-cover rotate-[10deg]" />
                     <motion.img initial={{X:0,y:0}} animate={{x:"-10%",y:"-10%"}} transition={{ease: "smooth",repeat: Infinity,duration:2}} src="../src/utils/cupcake.png" alt="" className="absolute top-[55%] h-[35vh] right-20 object-cover rotate-[5deg]" />
                     <motion.img initial={{X:0,y:0}} animate={{x:"10%",y:"-10%"}} transition={{ease: "smooth",repeat: Infinity,duration:2}} src="../src/utils/words.png" alt="" className="absolute -top-[10%] left-10 object-cover h-[50vh] brightness-[1.1] -rotate-[8deg]" />
