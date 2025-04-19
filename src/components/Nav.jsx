@@ -1,11 +1,12 @@
 import { NavLink } from "react-router-dom"
 import { MdRestaurantMenu } from "react-icons/md";
+import logo from "./src/utils/logo.jpg"
 
 
 const Nav = () => {
     return (        
         <div className="flex items-center justify-between w-full px-10 py-5">
-            <img className="w-[5vw] h-[10vh] object-cover" src="./src/utils/logo.jpg" alt="" />
+            <img className="w-[5vw] h-[10vh] object-cover" src={logo} alt="" />
             <div className="flex items-center gap-10 font-semibold">
             <NavLink className={(e)=>e.isActive ? 'text-[#d8734e]' : 'text-black  hover:text-[#d8734e] translate-y-0 hover:-translate-y-[3px] ease duration-100'} to='/'>Home</NavLink>
             <NavLink className={(e)=>e.isActive ? 'text-[#d8734e]' : 'text-black  hover:text-[#d8734e] translate-y-0 hover:-translate-y-[3px] ease duration-100'} to='/about'>About</NavLink>
